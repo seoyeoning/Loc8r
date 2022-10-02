@@ -12,7 +12,9 @@ const locationInfo = (req, res) => {
 
 /* Get add review page */
 const addReview = (req, res) => {
-  res.render("index", { title: "Add review   by 박서연_2020710026" });
+  res.render("location-review-form", {
+    title: "Add review   by 박서연_2020710026",
+  });
 };
 
 module.exports = {
