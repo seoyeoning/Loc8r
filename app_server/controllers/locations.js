@@ -5,7 +5,9 @@ const homelist = (req, res) => {
 
 /* Get location info page */
 const locationInfo = (req, res) => {
-  res.render("index", { title: "Location Info   by 박서연_2020710026" });
+  res.render("location-info", {
+    title: "Location Info   by 박서연_2020710026",
+  });
 };
 
 /* Get add review page */
