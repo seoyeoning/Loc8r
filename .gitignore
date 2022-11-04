@@ -62,4 +62,4 @@ typings/
 
 # privacy
 app_api/models/db.js
-app_server/controllers/location.js
+app_server/controllers/locations.js
